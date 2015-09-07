@@ -33,7 +33,7 @@ To use your data file, change the *source_data_file* setting to point to it. Als
 The minimum columns needed to compute the weight labels are: *age* in months (default: 'age'), *weight* in kilograms (default: 'weight'), *height* in cm (default: 'height') and *sex* capital letters M or F (default: 'sex'). If you want to change the default column names you can do so by modifying the appropriate settings in the coffs.py file. You can leave extra columns in the file, the script will leave them intact and append the computed values. 
 	
     col_age = 'new age column'
-    col_weight	= 'your weight column'
+    col_weight	= 'new weight column'
     col_height	= 'new height column'
     col_sex	= 'new sex column'
 
